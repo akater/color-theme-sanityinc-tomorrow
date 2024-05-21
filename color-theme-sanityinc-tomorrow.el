@@ -602,7 +602,7 @@ names to which it refers are bound."
       (org-habit-overdue-future-face (:foreground ,background :background ,red))
       (org-habit-ready-face (:foreground ,background :background ,aqua))
       (org-habit-ready-future-face (:foreground ,background :background ,green))
-      (org-headline-done (:foreground unspecified :strike-through t))
+      (org-headline-done (:foreground unspecified))
       (org-headline-todo (:foreground ,orange))
       (org-link (:foreground ,blue :underline t))
       (org-mode-line-clock-overrun (:inherit mode-line :background ,red))
